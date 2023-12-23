@@ -1,0 +1,113 @@
+/* nav */
+.collapse
+{
+    justify-content: center;
+
+}
+#dropdownMenuButton1
+{
+    color: whitesmoke
+}
+.nav-link
+{
+    color: whitesmoke;
+}
+
+.logo
+{
+    height: 6vh;
+}
+.navbar-toggler-icon
+{
+    background-color: black;
+}
+.dropdown-toggle
+{
+    color: rgb(21, 21, 241);
+}
+.nav-btn
+{
+    display: flex;
+}
+.nav-btn .btn-login
+{
+    padding: 6px 40px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    outline: none;
+    border: 1px solid white
+}
+.nav-btn .btn-quote
+{
+    background-color: white;
+    padding: 6px 40px;
+}
+.navbar
+{
+background-color: rgb(9, 9, 46);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu .active {
+    background-color: rgb(9, 9, 46);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.canvas-start
+{
+    position: fixed;
+}
+
+/* modal */
+.modal-body 
+{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.modal-body  button
+{
+    width:100%;
+
+
+}
+input
+{
+width: 100%;
+border: none;
+box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, .5);
+padding:10px;
+outline: none;
+border-radius: 10px;
+}
+.btn-success
+{
+    background-color: rgb(9, 9, 46);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 245, 245);
+
+}
+input
+{
+    background-color: rgb(235, 245, 245);
+}
+span
+{
+    display: flex;
+}
+.fw-bold
+{
+    padding: 5px
+}
+.text-dark
+{
+    margin-left: 8%
+}
+
+
+

@@ -1,0 +1,20 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 245, 245);
+
+}
+.logo
+{
+    height: 6vh;
+}
+
+.img-bg img
+{
+    height: 70vh;
+}
+h3 
+{
+    font-weight: bolder;
+    border: none;
+}
