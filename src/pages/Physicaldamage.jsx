@@ -14,7 +14,7 @@ function Physicaldamage ()
     
             <body>
                 {/* our mission */}
-        <h2>Physicaldamage insurance updload</h2> 
+        <h2>Physicaldamage insurance Comeon man</h2> 
         <br/>
         <div className="container">
         <div className="row">
