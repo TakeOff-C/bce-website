@@ -14,7 +14,7 @@ function Autoliability ()
     
             <body>
                 {/* our mission */}
-        <h2>Auto liability insuranceAbout us</h2> 
+        <h2>Auto liability insurance</h2> 
         <br/>
         <div className="container">
         <div className="row">
