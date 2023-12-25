@@ -59,7 +59,7 @@ function Login() {
                         <div className="col-md-6">
 
                             <img src={logo} alt="" className="logo" />
-                            <h3 className="h3">Sign up account</h3>
+                            <h3 className="h3" style={{color:"red"}}>Sign up account</h3>
                             <img src={lineimg} alt="" />
                             <p>Fill out follwing details
 </p>

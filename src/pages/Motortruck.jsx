@@ -13,6 +13,28 @@ function Motortruck ()
         <>
     
             <body>
+
+{/* <!-- Modal for about us btn --> */}
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get a contact us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Get a contact us by  <br/><br/> <i class="bi bi-telephone-fill">+27 635 123 785</i> </p>
+        <b style={{color:"red"}}> Or</b> <br/><br/>
+        <i class="bi bi-whatsapp">+27 635 123 785</i>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                 {/* our mission */}
         <h2>Motor truck cargo insurance</h2> 
         <br/>
@@ -22,14 +44,14 @@ function Motortruck ()
         <p>  We help you at any time</p>
         <img src={lineimg} alt="" />
 
-        <h3 className="h3">What Is Motor Truck Cargo Insurance?</h3>
+        <h3 className="h3" style={{color:"red"}}>What Is Motor Truck Cargo Insurance?</h3>
         <p>Motor Truck Cargo Insurance safeguards trucking companies 
             from financial losses resulting from damage or loss of
              transported goods. This policy covers cargo against 
              accidents, theft, and unforeseen events. Typically,
               freight brokers mandate a minimum of $100,000 MTC coverage..</p>
                    <span><button className="quote">Get a qoute</button></span>
-                   <span><button className="contact">Get a Contact us</button></span>
+                   <span><button className="contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
         </div>
         <div className="col-md-6">
         { <img src={img8} alt=""className="img"/> }
@@ -86,7 +108,7 @@ We offer competitive rates for all your products and services. Our commitment is
         <div className="row">
         <div className="col-md-6">
         <p>  Trusted insurer</p>
-        <h3 className="h3">Our Mission</h3>
+        <h3 className="h3" style={{color:"red"}}>Our Mission</h3>
         <img src={lineimg} alt="" />
 
         <p>At BCE, our mission is to empower trucking businesses

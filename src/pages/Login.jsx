@@ -55,7 +55,7 @@ const openNotificationWithIcon = (type) => {
 <div className="col-md-6">
 
 <img src={logo} alt="" className="logo"/>
-<h3 className="h3">Login</h3>
+<h3 className="h3" style={{color:"red"}}>Login</h3>
 <p>Access back to your account</p>
 <img src={lineimg} alt="" />
 
