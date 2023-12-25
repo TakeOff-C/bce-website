@@ -1,6 +1,5 @@
 import '../css/Home.css'
 import img1 from '../images/img1.png'
-
 import img3 from '../images/img3.png'
 import img4 from '../images/img4.png'
 import img5 from '../images/img5.png'
@@ -8,10 +7,28 @@ import img6 from '../images/img6.png'
 import img7 from '../images/img7.png'
 import img8 from '../images/img8.png'
 import lineimg from '../images/lingImg.png'
+import gif1 from '../images/gif1.gif'
+import gif2 from '../images/gif2.gif'
+import gif3 from '../images/gif3.jpeg'
+import gif4 from '../images/gif4.gif'
+import gif5 from '../images/gif5.gif'
+import gif6 from '../images/gif6.gif'
+import gif7 from '../images/gif7.gif'
+import gif8 from '../images/gif8.gif'
+
+import {  notification } from 'antd';
 
 
 
 function Home() {
+    // message  notification
+  const openNotificationWithIcon = (type) => {
+    notification[type]({
+      message: 'Customer Added',
+      description:
+'You have successfully been added to the customer group'
+    });
+  };
     return (
         <>
 
@@ -23,7 +40,7 @@ function Home() {
 
                             <div className="col-md-2">
                                 <p>The best security
-<h4>Main partners</h4></p>
+<h5 style={{color:"red" }} className="fw-bold">Main partners</h5></p>
                             </div>
                             <div className="col-md-2">
                                 <img src={img3} alt="" />
@@ -230,6 +247,95 @@ former trucking company owners.</p>
        <i class="bi bi-star-fill star purchase"> <b> Implement top safety measures </b></i>  <b>Get your quote</b> <i class="bi bi-arrow-right" /> <br/>
 </div>
 <br/>
+<br/>
+
+{/* gif imags */}
+<div className="contianer bg-white">
+<br/><br/>
+<div className="row">
+<div className="col-md-3">
+<img src={gif1} alt=""/>
+<p>If your business vehicles travel less, you should pay less for insurance</p>
+</div>
+<div className="col-md-3">
+<img src={gif2} alt=""/>
+<p>Excellent service!!</p>
+</div>
+<div className="col-md-3">
+<img src={gif3} alt=""/>
+<p>The flexibility of a fixed standard excess or a percentage excess which may be adjusted to suit your financial needs.</p>
+</div>
+<div className="col-md-3">
+<img src={gif4} alt=""/>
+<p>Cover for the replacement of locks and keys.</p>
+</div>
+</div>
+<br/>
+<div className="row">
+<div className="col-md-3">
+<img src={gif5} alt=""/>
+<p>Access to emergency roadside and office assistance services.</p>
+</div>
+<div className="col-md-3">
+<img src={gif6} alt=""/>
+<p>Access to emergency roadside and office assistance services.</p>
+</div>
+<div className="col-md-3">
+<img src={gif7} alt=""/>
+<p>Cover outside of South Africa into various African territories</p>
+</div>
+<div className="col-md-3">
+<img src={gif8} alt=""/>
+<p>Replacement vehicle or vehicle loss of use while your vehicle is being repaired.</p>
+</div>
+</div>
+<br/><br/>
+</div>
+
+<br/><br/>
+
+
+
+
+
+
+
+
+{/* do business with Balonas */}
+<div className="container">
+<div className="row">
+<div className="col-md-6">
+<h4 style={{color:"red" }} className="fw-bold">Do Business Your Way with Bolanos Business Insurance</h4>
+<p>As your business continues to grow, we offer you 
+    solutions that will continue to serve your business
+     through its lifecycle.</p>
+<p>Bolanos Business Insurance team is committed to
+   providing you with world-class service. Simply 
+   give us your details using the form and we'll give you a call.</p>
+</div>
+<div className="col-md-6">
+<p style={{color:"red" }}>Fill you details below to get a quote</p>
+<form>
+       <input type="text" name="" id="" placeholder="User name" required/>
+        <br/><br/>
+        <input type="email" name="" id="" placeholder="E-mail" required/>
+        <br/><br/>
+        <input type="number" name="" id="" placeholder="Phone number" required/>
+        <br/><br/>
+        <p>As your business continues to grow, we offer you solutions that will continue to serve your business through its lifecycle.
+
+Bonalos Business Insurance team is committed to providing you with world-class service. Simply give us your details using the form and we'll give you a call.</p>
+<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>I want to be a customer</button> 
+<br/><br/>
+       </form>
+</div>
+</div>
+</div>
+
+
+
+
+
 
 
 
