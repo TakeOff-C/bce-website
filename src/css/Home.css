@@ -116,15 +116,16 @@ h6
 }
 /* gif imags */
 .bg-white img{
-    margin-left: 20%;
+    margin-left: 30%;
     height: 20vh;
     width: 40%;
     text-align: center;
     justify-content: center;
 }
 .bg-white p{
-    margin-left: 10%;
 
+    text-align: center;
+    justify-content: center;
 }
 
 
