@@ -3,29 +3,93 @@ import img from '../images/autoimg.png'
 import img1 from '../images/autoimg1.png'
 import img2 from '../images/img2.png'
 import lineimg from '../images/lingImg.png'
+import {  notification } from 'antd';
+
 
 
 
 
 function Autoliability ()
 {
+
+// message  notification
+const openNotificationWithIcon = (type) => {
+  notification[type]({
+    message: 'Customer Added',
+    description:
+'Your quote on autoliability insurance will be sent shortly'
+  });
+};
+
+
     return(
         <>
     
             <body>
+
+              {/* offcanvas menu */}
+{/* to trigger the canvas, check the trigger code on menu */}
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel"> <b>Get a quote right now</b></h5>
+    {/* badge start */}
+    <button type="button" class="btn btn-primary position-relative">
+  Registered
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+{/* badge end */}
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <p>Auto liability insurance covers property damage,
+         medical bills, and legal fees when a trucker is
+          at fault in an accident, providing financial 
+          protection and peace of mind</p>
+            <div class="vertical-menu">
+  <div class="modal-body">
+       <form>
+       <input type="text" name="" id="" placeholder="User name" required/>
+        <br/><br/>
+        <input type="email" name="" id="" placeholder="E-mail" required/>
+        <br/><br/>
+        <input type="number" name="" id="" placeholder="Phone number" required/>
+        <br/><br/>
+<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>Request for a quote</button> 
+<br/><br/>
+       </form>
+<p>By submitting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>
+<hr/>
+<i class="bi bi-shield-fill-check"><b>Your data is save with us</b></i>   
+   </div>
+</div>
+
+  </div>
+</div>
 
 {/* <!-- Modal for about us btn --> */}
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Get a contact us</h5>
+        <h5 class="modal-title" id="exampleModalLabel" style={{color:"red"}}>Get a contact us</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Get a contact us by  <br/><br/> <i class="bi bi-telephone-fill">+27 635 123 785</i> </p>
-        <b style={{color:"red"}}> Or</b> <br/><br/>
-        <i class="bi bi-whatsapp">+27 635 123 785</i>
+      <p>Auto liability insurance covers property damage,
+         medical bills, and legal fees when a trucker is
+          at fault in an accident, providing financial 
+          protection and peace of mind</p>
+        <p>Get a contact us by <br/> <i class="bi bi-telephone-fill" style={{color:"red"}}>+27 635 123 785</i>  <br/></p>
+        <i class="bi bi-whatsapp" style={{color:"red"}}>+27 635 123 785</i>
+        <br/><br/>
+        <p>Auto liability coverage is vital and required
+           by law. It protects against accident-related 
+           injury or damage. Most freight brokers require
+            at least $1,000,000 in coverage, ensuring compliance and peace of mind on the road..</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -51,7 +115,7 @@ function Autoliability ()
             It protects against accident-related injury or damage.
              Most freight brokers require at least $1,000,000 in coverage,
               ensuring compliance and peace of mind on the road..</p>
-                   <span><button className="quote">Get a qoute</button></span>
+                   <span><button className="quote" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get a qoute</button></span>
                    <span><button className="contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
         </div>
         <div className="col-md-6">

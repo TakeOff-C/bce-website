@@ -20,18 +20,27 @@ function About ()
 
 
 
+{/* <!-- Modal for contact us btn --> */}
 {/* <!-- Modal for about us btn --> */}
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Get a contact us</h5>
+        <h5 class="modal-title" id="exampleModalLabel" style={{color:"red"}}>Get a contact us</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Get a contact us by  <br/><br/> <i class="bi bi-telephone-fill">+27 635 123 785</i> </p>
-        <b style={{color:"red"}}> Or</b> <br/><br/>
-        <i class="bi bi-whatsapp">+27 635 123 785</i>
+      <p>Auto liability insurance covers property damage,
+         medical bills, and legal fees when a trucker is
+          at fault in an accident, providing financial 
+          protection and peace of mind</p>
+        <p>Get a contact us by <br/> <i class="bi bi-telephone-fill" style={{color:"red"}}>+27 635 123 785</i>  <br/></p>
+        <i class="bi bi-whatsapp" style={{color:"red"}}>+27 635 123 785</i>
+        <br/><br/>
+        <p>Auto liability coverage is vital and required
+           by law. It protects against accident-related 
+           injury or damage. Most freight brokers require
+            at least $1,000,000 in coverage, ensuring compliance and peace of mind on the road..</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -39,6 +48,9 @@ function About ()
     </div>
   </div>
 </div>
+
+
+
 
                 {/* our mission */}
         <h2 >About us</h2> 
