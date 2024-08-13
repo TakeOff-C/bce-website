@@ -15,11 +15,12 @@
 
 .logo
 {
-    height: 6vh;
+    height: 10vh;
 }
-.navbar-toggler-icon
+  .bi-list
 {
-    background-color: black;
+    color:whitesmoke;
+   
 }
 .dropdown-toggle
 {
