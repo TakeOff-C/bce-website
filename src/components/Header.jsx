@@ -28,11 +28,11 @@ return(
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <Link class="nav-link active" aria-current="page" to="/Home">Home</Link>
+          <Link class="nav-link active" aria-current="page" to="/Home"><i class="bi bi-house-door"></i>Home</Link>
         </li>
         <div class="dropdown" >
   <Link class="btn dropdown-toggle"  id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Product & Services
+  <i class="bi bi-diagram-2"></i> Product & Services
   </Link>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
   <Link class="dropdown-item" aria-current="page" to="/Autoliability">Auto liability insurance</Link>
@@ -42,13 +42,13 @@ return(
   </ul>
 </div>
         <li class="nav-item">
-          <Link class="nav-link" to="#" type="button" >FAQ & Resources</Link>
+          <Link class="nav-link" to="#" type="button" ><i class="bi bi-question-octagon"></i>FAQ & Resources</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/About">About Us</Link>
+          <Link class="nav-link" to="/About"><i class="bi bi-file-person-fill"></i>About Us</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="/Signup">Sign up</Link>
+          <Link class="nav-link" to="/Signup"><i class="bi bi-box-arrow-in-right"></i>Sign up</Link>
         </li>
         <div className="nav-btn">
  <span><Link to="/Login"><button type="button" class="btn btn-login">Login</button></Link></span>

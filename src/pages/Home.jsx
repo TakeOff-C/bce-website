@@ -255,38 +255,38 @@ former trucking company owners.</p>
 <div className="row">
 <div className="col-md-3">
 <img src={gif1} alt=""/>
-<p>If your business vehicles travel less, you should pay less for insurance</p>
+<p>If your business vehicles travel less, <br/> you should pay less for insurance</p>
 </div>
 <div className="col-md-3">
 <img src={gif2} alt=""/>
-<p>Excellent service!!</p>
+<p>Excellent service with  the <br/> best professionals of great expirience </p>
 </div>
 <div className="col-md-3">
 <img src={gif3} alt=""/>
-<p>The flexibility of a fixed standard excess or a percentage excess which may be adjusted to suit your financial needs.</p>
+<p>The flexibility of a fixed standard excess <br/> or a percentage excess  which may be <br/> adjusted to suit your financial needs.</p>
 </div>
 <div className="col-md-3">
 <img src={gif4} alt=""/>
-<p>Cover for the replacement of locks and keys.</p>
+<p>Cover for the replacement <br/> of locks and keys.</p>
 </div>
 </div>
 <br/>
 <div className="row">
 <div className="col-md-3">
 <img src={gif5} alt=""/>
-<p>Access to emergency roadside and office assistance services.</p>
+<p>Access to emergency roadside and <br/> office assistance services.</p>
 </div>
 <div className="col-md-3">
 <img src={gif6} alt=""/>
-<p>Access to emergency roadside and office assistance services.</p>
+<p>Access to emergency roadside <br/> and office assistance services.</p>
 </div>
 <div className="col-md-3">
 <img src={gif7} alt=""/>
-<p>Cover outside of South Africa into various African territories</p>
+<p>Cover outside of South Africa <br/> into various African territories</p>
 </div>
 <div className="col-md-3">
 <img src={gif8} alt=""/>
-<p>Replacement vehicle or vehicle loss of use while your vehicle is being repaired.</p>
+<p>Replacement vehicle or vehicle  loss of <br/> use while your vehicle is being repaired.</p>
 </div>
 </div>
 <br/><br/>
