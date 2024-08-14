@@ -50,6 +50,14 @@ background-color: aliceblue;
 
 }
 /* how our platform works */
+#platform p
+{
+padding: 12px;
+}
+#platform i
+{
+padding-left: 30px;
+}
 .img8
 {
     height: 50vh;

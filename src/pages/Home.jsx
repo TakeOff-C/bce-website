@@ -151,7 +151,7 @@ function Home() {
 <br/> <br/>
 <img src={img8} alt="" className="img8" />
 </div>
-<div className="col-md-6">
+<div className="col-md-6" id="platform">
 <p>The best insurance companies are with us 
 <h3 className="h3">How our platform works</h3>
 <img src={lineimg} alt="" />
