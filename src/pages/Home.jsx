@@ -33,7 +33,9 @@ function Home() {
         <>
 
             <body>
-                <br /><br />
+            <h2 >Balonos insurance</h2> 
+        
+                <br/> 
                 <div className="container">
                     <div className="container-img">
                         <div className="row">
