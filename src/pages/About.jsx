@@ -71,7 +71,7 @@ function About ()
                  for truckers, we stand by our clients every mile
                   of the journey, providing peace of mind and
                    unparalleled support.</p>
-                   <span><button className="quote" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
+                   <span><button className="contact-us" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
                    <span><Link to="/Comments"><button className="contact">Write a commet about us</button></Link></span>
         </div>
         <div className="col-md-6">
