@@ -11,6 +11,12 @@ h2
     color: whitesmoke;
     background-color: rgb(9, 9, 46);
 }
+ .btn-quote
+{
+    background-color: rgb(9, 9, 46);
+    padding: 6px 40px;
+    color:white;
+}
 /* {get instant quote online today} */
 @media  screen and (max-width:720px)
 {
