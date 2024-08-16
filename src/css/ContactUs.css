@@ -1,0 +1,22 @@
+h2
+{
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+    background-color: rgb(9, 9, 46);
+}
+p
+{
+text-align: center;
+}
+b{
+    color: rgb(9, 9, 46);
+}
+  .login
+{
+    background-color: rgb(9, 9, 46);
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 30px;
+}

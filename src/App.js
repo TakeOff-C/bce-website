@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import ContactUs from './pages/ContactUs'
 import Autoliability from './pages/Autoliability'
 import Generalliability from './pages/Generalliability'
 import Motortruck from './pages/Motortruck'
@@ -30,6 +31,7 @@ function App() {
 <Route path='/About' element={ <About /> } />
 <Route path='/Login' element={ <Login /> } />
 <Route path='/Signup' element={ <Signup /> } />
+<Route path='/ContactUs' element={ <ContactUs /> } />
 <Route path='/Autoliability' element={ <Autoliability /> } />
 <Route path='/Generalliability' element={ <Generalliability /> } />
 <Route path='/Motortruck' element={ <Motortruck /> } />

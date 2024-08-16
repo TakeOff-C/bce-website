@@ -39,6 +39,15 @@
     outline: none;
     border: 1px solid white
 }
+.nav-item .btn-signup
+{
+    padding: 6px 40px;
+    background-color: rgb(9, 9, 46);
+    box-shadow: 2px 4px rgba(0, 0, 0, .5);
+    color: white;
+    outline: none;
+    border: 1px solid white
+}
 
 .navbar
 {
