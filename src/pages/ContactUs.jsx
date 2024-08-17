@@ -17,7 +17,7 @@ function ContactUs(){
 <b>063 512 3785.</b>
 <br/><br/>
 You can update your insurance policy, submit a claim or find out more information on the OUTsurance <br/> portal. <br/>
-<Link to="/Login"><button className="login" >LOGIN</button></Link>
+<Link to="/Login"><button className="login" >Login</button></Link>
  </p>
      </div>
 
@@ -120,8 +120,21 @@ Please check out our careers <br/>
 
      <br/>
 
+     {/* compliment */}
+     <div className="container">
+<p>Contact any of the below departments if you need assistance or want to speak to a friendly member <br/>
+    of the bonalos team. Remember our Client Care Department is also just a phone call away on <br/><br/>
+<b>063 512 3785.</b>
+<br/><br/>
+You can update your insurance policy, submit a claim or find out more information on the OUTsurance <br/> portal. <br/><br/>
+<Link to="#"><button className="login" >Give feedback</button></Link>
+<Link to="#"><button className="email" >Send an email</button></Link>
 
-        </>
+ </p>
+     </div>
+
+     </>
+     
     )
 }
 
