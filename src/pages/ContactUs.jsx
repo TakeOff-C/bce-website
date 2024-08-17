@@ -120,17 +120,43 @@ Please check out our careers <br/>
 
      <br/>
 
+
+
      {/* compliment */}
      <div className="container">
-<p>Contact any of the below departments if you need assistance or want to speak to a friendly member <br/>
-    of the bonalos team. Remember our Client Care Department is also just a phone call away on <br/><br/>
-<b>063 512 3785.</b>
-<br/><br/>
-You can update your insurance policy, submit a claim or find out more information on the OUTsurance <br/> portal. <br/><br/>
+<p>
+    <h2>Compliment or complaint?</h2>
+    We'd like to hear from you, simply click the button below to give your feedback or email feedback@bolanos.co.za .
+    . <br/><br/>
 <Link to="#"><button className="login" >Give feedback</button></Link>
 <Link to="#"><button className="email" >Send an email</button></Link>
 
  </p>
+     </div>
+     <br/>
+
+     {/* scam */}
+     <div className="container">
+     <h1> <b>Reporting Scam and Fraud </b>  </h1> <br/>
+     <p className="scam" id="scam"><b>email scam</b></p>
+  <Link to="#">bolanos.co.za</Link>
+  <p className="scam">24 hours a day, 7 days a week</p> 
+  <br/>
+  <hr/>
+  <br/>
+  <p className="scam" id="scam"><b>Report Fraud</b></p>
+  <Link to="#">063 512 3785</Link>
+  <p className="scam">24 hours a day, 7 days a week</p>
+  <Link to="#">reportfraud@out.co.za</Link>
+  <p className="scam">24 hours a day, 7 days a week</p>
+  <br/>
+  <p className="scam">Please note that your call 
+  and all information will be treated with utmost 
+  confidentiality and you can choose to remain anonymous
+   - this fraud line can only be effective with your full
+    co-operation</p>
+    <br/>
+    
      </div>
 
      </>

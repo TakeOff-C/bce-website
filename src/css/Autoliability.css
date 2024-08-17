@@ -24,12 +24,13 @@ color: whitesmoke;
 border: none;
 border-radius: 5px;
 padding: 10px 30px;
+box-shadow: 2px 2px 8px 4px rgba(53, 12, 200, .8);
 }
 span .contact
 {
     background-color: rgb(238, 235, 235);
 color: black;
-border: 1px solid black;
+border: none;
 border-radius: 5px;
 padding: 10px 30px;
 }

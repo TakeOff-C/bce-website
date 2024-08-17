@@ -75,11 +75,6 @@ function Home() {
 
 
 
-
-
-
-
-
             <body>
             <h2 >Balonos insurance</h2> 
         

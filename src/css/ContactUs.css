@@ -1,3 +1,4 @@
+
 h2
 {
     text-align: center;
@@ -19,6 +20,8 @@ color: white;
 border: none;
 border-radius: 5px;
 padding: 10px 30px;
+box-shadow: 2px 2px 8px 4px rgba(53, 12, 200, .8);
+
 }
 
 /* contact details */
@@ -33,4 +36,14 @@ color: rgb(9, 9, 46);;
 border: none;
 border-radius: 5px;
 padding: 10px 30px;
+}
+
+/* scam */
+ .scam
+{
+text-align: left;
+}
+#scam b
+{
+    color: red;
 }

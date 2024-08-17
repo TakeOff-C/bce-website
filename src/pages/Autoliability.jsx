@@ -70,34 +70,6 @@ const openNotificationWithIcon = (type) => {
   </div>
 </div>
 
-{/* <!-- Modal for about us btn --> */}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" style={{color:"red"}}>Get a contact us</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      <p>Auto liability insurance covers property damage,
-         medical bills, and legal fees when a trucker is
-          at fault in an accident, providing financial 
-          protection and peace of mind</p>
-        <p>Get a contact us by <br/> <i class="bi bi-telephone-fill" style={{color:"red"}}>+27 635 123 785</i>  <br/></p>
-        <i class="bi bi-whatsapp" style={{color:"red"}}>+27 635 123 785</i>
-        <br/><br/>
-        <p>Auto liability coverage is vital and required
-           by law. It protects against accident-related 
-           injury or damage. Most freight brokers require
-            at least $1,000,000 in coverage, ensuring compliance and peace of mind on the road..</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
 
@@ -116,7 +88,8 @@ const openNotificationWithIcon = (type) => {
              Most freight brokers require at least $1,000,000 in coverage,
               ensuring compliance and peace of mind on the road..</p>
                    <span><button className="quote" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get a qoute</button></span>
-                   <span><button className="contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
+<Link to="/contactUs"><button className="email" >Get a contact us</button></Link>
+
         </div>
         <div className="col-md-6">
         <img src={img} alt=""className="img"/>
