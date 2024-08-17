@@ -30,8 +30,8 @@ You can update your insurance policy, submit a claim or find out more informatio
 <div className="card_details">
 <div className="card">
 <br/>
-<p><b>Sales</b> <br/><br/>
-<b>063 512 3785</b> <br/><br/>
+<p><b className="contact">Sales</b> <br/><br/>
+<b className="contact">063 512 3785</b> <br/><br/>
 Mon-Thurs: 	08:00-19:00 <br/>
 Friday:	08:00-18:00 <br/>
 Sat:	08:00-13:00 <br/>
@@ -43,8 +43,8 @@ Public holidays:	08:00-17:00</p>
      <div className="card_details">
 <div className="card">
 <br/>
-<p><b>Client care</b> <br/><br/>
-<b>063 512 3785</b> <br/><br/>
+<p><b className="contact">Client care</b> <br/><br/>
+<b className="contact">063 512 3785</b> <br/><br/>
 Mon-Thurs: 	08:00-19:00 <br/>
 Friday:	08:00-18:00 <br/>
 Sat:	08:00-13:00 <br/>
@@ -56,8 +56,8 @@ Public holidays:	08:00-17:00</p>
      <div className="card_details">
 <div className="card">
 <br/>
-<p><b>Claims</b> <br/><br/>
-<b>063 512 3785</b> <br/><br/>
+<p><b className="contact">Claims</b> <br/><br/>
+<b className="contact">063 512 3785</b> <br/><br/>
 Mon-Thurs: 	08:00-19:00 <br/>
 Friday:	08:00-18:00 <br/>
 Sat:	08:00-13:00 <br/>
@@ -77,8 +77,8 @@ Public holidays:	08:00-17:00</p>
 <div className="card_details">
 <div className="card">
 <br/>
-<p><b>International</b> <br/><br/>
-<b>063 512 3785</b> <br/><br/>
+<p><b className="contact">International</b> <br/><br/>
+<b className="contact">063 512 3785</b> <br/><br/>
 Mon-Thurs: 	08:00-19:00 <br/>
 Friday:	08:00-18:00 <br/>
 Sat:	08:00-13:00 <br/>
@@ -90,8 +90,8 @@ Public holidays:	08:00-17:00</p>
      <div className="card_details">
 <div className="card">
 <br/>
-<p><b>Help@OUT24/7</b> <br/><br/>
-<b>063 512 3785</b> <br/><br/>
+<p><b className="contact">Help@OUT24/7</b> <br/><br/>
+<b className="contact">063 512 3785</b> <br/><br/>
 Mon-Thurs: 	08:00-19:00 <br/>
 Friday:	08:00-18:00 <br/>
 Sat:	08:00-13:00 <br/>
@@ -103,7 +103,7 @@ Public holidays:	08:00-17:00</p>
      <div className="card_details">
 <div className="card">
 <br/>
-<p><b>Career</b> <br/><br/>
+<p><b className="contact">Career</b> <br/><br/>
 Great that you are interested! <br/>
 Please check out our careers <br/>
  page for more detail on <br/>

@@ -299,7 +299,7 @@ former trucking company owners.</p>
       </div>
 
 <div className="star"> 
-       <i class="bi bi-star-fill star purchase"> <b> Implement top safety measures </b></i>  <b>Get your quote</b> <i class="bi bi-arrow-right" /> <br/>
+       <i class="bi bi-star-fill star purchase"> </i>  <b>Get your quote</b> <i class="bi bi-arrow-right" /> <br/>
 </div>
 <br/>
 <br/>
