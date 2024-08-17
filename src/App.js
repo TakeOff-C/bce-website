@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 // pages
 import Home from './pages/Home'
 import About from './pages/About'
+import Policy from './pages/Policy'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import ContactUs from './pages/ContactUs'
@@ -29,6 +30,8 @@ function App() {
 <Route path='/' element={ <Home /> } />
 <Route path='/Home' element={ <Home /> } />
 <Route path='/About' element={ <About /> } />
+<Route path='/Policy' element={ <Policy /> } />
+
 <Route path='/Login' element={ <Login /> } />
 <Route path='/Signup' element={ <Signup /> } />
 <Route path='/ContactUs' element={ <ContactUs /> } />

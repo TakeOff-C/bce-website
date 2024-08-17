@@ -42,7 +42,7 @@ return(
   </ul>
 </div>
 <li class="nav-item">
-          <Link class="nav-link" to="#"><i class="bi bi-sliders2-vertical"></i>My Policy</Link>
+          <Link class="nav-link" to="/Policy"><i class="bi bi-sliders2-vertical"></i>My Policy</Link>
         </li><li class="nav-item">
           <Link class="nav-link" to="/ContactUs"><i class="bi bi-phone-flip"></i>Contact Us</Link>
         </li>

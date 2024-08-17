@@ -19,35 +19,51 @@ function About ()
 
 
 
+              {/* offcanvas menu */}
+{/* to trigger the canvas, check the trigger code on menu */}
 
-{/* <!-- Modal for contact us btn --> */}
-{/* <!-- Modal for about us btn --> */}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" style={{color:"red"}}>Get a contact us</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      <p>Auto liability insurance covers property damage,
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasTopLabel"> <b>Get a quote right now</b></h5>
+    {/* badge start */}
+    <button type="button" class="btn btn-primary position-relative">
+  Registered
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+{/* badge end */}
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <p>Auto liability insurance covers property damage,
          medical bills, and legal fees when a trucker is
           at fault in an accident, providing financial 
           protection and peace of mind</p>
-        <p>Get a contact us by <br/> <i class="bi bi-telephone-fill" style={{color:"red"}}>+27 635 123 785</i>  <br/></p>
-        <i class="bi bi-whatsapp" style={{color:"red"}}>+27 635 123 785</i>
+            <div class="vertical-menu">
+  <div class="modal-body">
+       <form>
+       <input type="text" name="" id="" placeholder="User name" required/>
         <br/><br/>
-        <p>Auto liability coverage is vital and required
-           by law. It protects against accident-related 
-           injury or damage. Most freight brokers require
-            at least $1,000,000 in coverage, ensuring compliance and peace of mind on the road..</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
+        <input type="email" name="" id="" placeholder="E-mail" required/>
+        <br/><br/>
+        <input type="number" name="" id="" placeholder="Phone number" required/>
+        <br/><br/>
+<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>Request for a quote</button> 
+<br/><br/>
+       </form>
+<p>By submitting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>
+<hr/>
+<i class="bi bi-shield-fill-check"><b>Your data is save with us</b></i>   
+   </div>
+</div>
+
   </div>
 </div>
+
+
+
 
 
 
@@ -71,8 +87,8 @@ function About ()
                  for truckers, we stand by our clients every mile
                   of the journey, providing peace of mind and
                    unparalleled support.</p>
-                   <span><button className="contact-us" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
-                   <span><Link to="/Comments"><button className="contact">Write a commet about us</button></Link></span>
+                   <span><button className="quote" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get a qoute</button></span>
+                   <Link to="/ContactUs"><button className="email" >Get a contat us</button></Link>
         </div>
         <div className="col-md-6">
         <img src={img} alt=""className="img"/>
