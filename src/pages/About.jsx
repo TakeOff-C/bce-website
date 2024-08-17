@@ -53,7 +53,7 @@ function About ()
 <button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>Request for a quote</button> 
 <br/><br/>
        </form>
-<p>By submitting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>
+<p>By submiting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>
 <hr/>
 <i class="bi bi-shield-fill-check"><b>Your data is save with us</b></i>   
    </div>

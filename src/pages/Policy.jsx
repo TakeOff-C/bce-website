@@ -88,7 +88,7 @@ function Policy(){
 <br/><br/>
 
  <p className="scam" id="scam"><b>SmartDrive</b></p>
-<p className="scam">View your SmartDrive scores and see how well you're driving.
+<p className="scam">View your Smartdrive scores and see how well you're driving.
 </p> 
 <br/><br/>
 </div>
