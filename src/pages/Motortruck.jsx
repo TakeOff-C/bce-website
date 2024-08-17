@@ -1,4 +1,5 @@
 import '../css/Motortruck.css'
+import {  Link } from 'react-router-dom'
 import img8 from '../images/img8.png'
 import img9 from '../images/img9.png'
 import img2 from '../images/img2.png'
@@ -75,27 +76,6 @@ const openNotificationWithIcon = (type) => {
 
 
 
-
-{/* <!-- Modal for contact us us btn --> */}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel" style={{color:"red"}}>Get a contact us</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Get a contact us by  <br/><br/> <i class="bi bi-telephone-fill">+27 635 123 785</i> </p>
-        <b style={{color:"red"}}> Or</b> <br/><br/>
-        <i class="bi bi-whatsapp">+27 635 123 785</i>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 {/* <!-- Modal for about us btn --> */}
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -139,7 +119,7 @@ const openNotificationWithIcon = (type) => {
              accidents, theft, and unforeseen events. Typically,
               freight brokers mandate a minimum of $100,000 MTC coverage..</p>
                    <span><button className="quote" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get a qoute</button></span>
-                   <span><button className="contact" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Contact us</button></span>
+                   <Link to="/ContactUs"><button className="email" >Get a contat us</button></Link>
         </div>
         <div className="col-md-6">
         { <img src={img8} alt=""className="img"/> }

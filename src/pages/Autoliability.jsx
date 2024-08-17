@@ -1,4 +1,5 @@
 import '../css/Autoliability.css'
+import {  Link } from 'react-router-dom'
 import img from '../images/autoimg.png'
 import img1 from '../images/autoimg1.png'
 import img2 from '../images/img2.png'
@@ -88,7 +89,7 @@ const openNotificationWithIcon = (type) => {
              Most freight brokers require at least $1,000,000 in coverage,
               ensuring compliance and peace of mind on the road..</p>
                    <span><button className="quote" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Get a qoute</button></span>
-<Link to="/contactUs"><button className="email" >Get a contact us</button></Link>
+                   <Link to="/ContactUs"><button className="email" >Get a contat us</button></Link>
 
         </div>
         <div className="col-md-6">
