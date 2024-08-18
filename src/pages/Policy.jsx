@@ -14,7 +14,7 @@ function Policy() {
         </h1>
         <br />
         <p className="scam">
-          An OUT ID gives you access to the client portal and app. It's one
+          An bonalos ID gives you access to the client portal and app. It's one
           simple login for <br />
           everything OUTsurance
         </p>
