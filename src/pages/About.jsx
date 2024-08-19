@@ -79,7 +79,7 @@ function About() {
                   <br />
                   <button
                     className="btn btn-success"
-                    onClick={() => openNotificationWithIcon("success")}
+                  //  onClick={() => openNotificationWithIcon("success")}
                   >
                     Request for a quote
                   </button>
