@@ -6,10 +6,10 @@ h2
     color: whitesmoke;
     background-color: rgb(9, 9, 46);
 }
-p
+ p
 {
-text-align: center;
-}
+
+} 
 b{
     color: rgb(9, 9, 46);
 }
@@ -28,6 +28,11 @@ box-shadow: 2px 2px 8px 4px rgba(53, 12, 200, .8);
  .contact
 {
     font-size:22px;
+    text-align: center;
+}
+.card_details
+{
+    text-align: center;
 }
 .email
 {

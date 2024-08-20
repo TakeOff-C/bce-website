@@ -58,7 +58,10 @@ const openNotificationWithIcon = (type) => {
         <br/><br/>
         <input type="number" name="" id="" placeholder="Phone number" required/>
         <br/><br/>
-<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>Request for a quote</button> 
+<button
+ className="btn btn-success"
+ // onClick={() => openNotificationWithIcon('success')}
+  >Request for a quote</button> 
 <br/><br/>
        </form>
 <p>By submitting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>

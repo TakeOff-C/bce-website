@@ -23,13 +23,13 @@ import {  notification } from 'antd';
 
 function Home() {
     // message  notification
-  const openNotificationWithIcon = (type) => {
-    notification[type]({
-      message: 'Customer Added',
-      description:
-'You have successfully been added to the customer group'
-    });
-  };
+//   const openNotificationWithIcon = (type) => {
+//     notification[type]({
+//       message: 'Customer Added',
+//       description:
+// 'You have successfully been added to the customer group'
+//     });
+//   };
     return (
         <>
 
@@ -62,7 +62,10 @@ function Home() {
         <br/><br/>
         <input type="number" name="" id="" placeholder="Phone number" required/>
         <br/><br/>
-<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>I want to be a customer</button> 
+<button 
+className="btn btn-success" 
+//onClick={() => openNotificationWithIcon('success')}
+>I want to be a customer</button> 
 <br/><br/>
        </form>
 <p>By submitting your data, you authorize us to contact you, To find out more, see our Privacy policy</p>
@@ -495,7 +498,11 @@ former trucking company owners.</p>
         <p>As your business continues to grow, we offer you solutions that will continue to serve your business through its lifecycle.
 
 Bonalos Business Insurance team is committed to providing you with world-class service. Simply give us your details using the form and we'll give you a call.</p>
-<button className="btn btn-success" onClick={() => openNotificationWithIcon('success')}>I want to be a customer</button> 
+<button 
+className="btn btn-success" 
+//onClick={() => openNotificationWithIcon('success')}
+>
+I want to be a customer</button> 
 <br/><br/>
        </form>
 </div>
