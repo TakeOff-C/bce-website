@@ -52,6 +52,20 @@ const openNotificationWithIcon = (type) => {
             <div class="vertical-menu">
   <div class="modal-body">
        <form>
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul id="dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item " href="#">Auto liability insurance</a></li>
+    <li><a class="dropdown-item" href="#">General liability insurance</a></li>
+    <li><a class="dropdown-item" href="#">Moto truck cago insurance</a></li>
+    <li><a class="dropdown-item" href="#">Physical damage insurance</a></li>
+  </ul>
+</div>
+
+         <br/>
        <input type="text" name="" id="" placeholder="User name" required/>
         <br/><br/>
         <input type="email" name="" id="" placeholder="E-mail" required/>

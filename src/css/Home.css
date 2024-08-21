@@ -48,6 +48,12 @@ h2
     width:100%
 }
 }
+#dropdown{
+    width:100%;
+}
+#dropdown li a{
+    color:black;
+}
 /* accordion */
 @media  screen and (max-width:720px)
 {
@@ -56,11 +62,13 @@ h2
     padding-top: 20px;
     width:100%
 }
+
 }
  .accordion
 {
     color: black;
 background-color: aliceblue;
+
 }
 .accordion-item h2
 {
@@ -100,7 +108,6 @@ padding-left: 30px;
     color: rgb(158, 155, 155);
     font-size: 15px;
 }
-
 h6
 {
     font-weight: bolder;
@@ -111,7 +118,6 @@ h6
     border-radius: 5px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-
 }
 @media  screen and (max-width:720px)
 {
